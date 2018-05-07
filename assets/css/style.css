@@ -3,6 +3,7 @@ body{
     background-image: url("../images/bg2.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    
 }
 
 .container{
@@ -67,10 +68,15 @@ nav li{
     color:#777777;
 }
 
+hr{
+    border-color: #fff;
+}
+
 .content{
     background-color: #ffffff;
     overflow: auto;
     margin-top: 40px;
+    margin-bottom: 100px;
     border: 1px solid #dddddd;
 }
 
@@ -92,20 +98,30 @@ nav li{
     margin-bottom: 20px;
 }
 
-.content *{
+.content > *{
     margin: 10px 20px;
 }
 
-footer{
+.footer{
     width: 100%;
-    position: absolute;
-    bottom: 0;
     background-color: #666666;
     color: #FFFFFF;
     text-align: center;
-    height: 50px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    
 }
 
-footer p{
-    margin-top: 30px;
+.footer p{
+    font-size: 0.8em;
+    padding-top: 40px; 
+}
+
+input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
 }
