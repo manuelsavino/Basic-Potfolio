@@ -98,9 +98,13 @@ hr{
     margin-bottom: 20px;
 }
 
+.content p{
+    line-height: 1.5;
+}
 .content > *{
     margin: 10px 20px;
 }
+
 
 .footer{
     width: 100%;
