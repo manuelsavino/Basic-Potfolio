@@ -41,7 +41,7 @@ nav ul{
 
 nav ul{
     list-style: none;
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 nav li{
@@ -126,12 +126,20 @@ p.bio{
 
 
 /*Contact Page*/
-input{
+input, textarea{
     width: 100%;
+    border:solid 1px #d1d1d1;
+    padding: 10px 5px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    margin-top: 2px;
 }
 
-textarea{
-    width: 100%;
+input[type=submit] {
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    font-size: 1.1em;
 }
 
 /*About Page*/
